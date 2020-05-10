@@ -1,0 +1,4 @@
+import urllib
+
+# fil=urllib.open("https://www.google.com/search?q=unicode+string&oq=unicode+string&aqs=chrome..69i57.7377j0j7&sourceid=chrome&ie=UTF-8")
+print(help(urllib))

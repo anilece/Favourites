@@ -1,0 +1,10 @@
+from selenium import webdriver
+driver=webdriver.Chrome()
+driver.get("https://www.sms4india.com/Login")
+driver.find_element_by_xpath('/html/body/div[6]/div[2]/div/div[3]/form/div[1]/input').send_keys(9790790695)
+driver.find_element_by_xpath('/html/body/div[6]/div[2]/div/div[3]/form/div[2]/input').send_keys("anilku")
+driver.find_element_by_xpath('/html/body/div[6]/div[2]/div/div[3]/form/div[2]/div[2]/button').click()
+driver.implicitly_wait(10)
+driver.find_element_by_xpath('/html/body/div[4]/div[6]/div[5]/div[2]/div/span[2]/input').send_keys(9843305034)
+driver.find_element_by_xpath('/html/body/div[4]/div[6]/div[5]/div[4]/div[1]/div[1]/textarea[2]').send_keys("just now pressed the panic button")
+driver.find_element_by_xpath('/html/body/div[4]/div[6]/div[5]/div[4]/div[5]/button').click()
